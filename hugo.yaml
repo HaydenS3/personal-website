@@ -114,6 +114,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/HaydenS3
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/hayden-schroeder
 
   # About
   about:
