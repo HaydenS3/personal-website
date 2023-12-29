@@ -7,7 +7,6 @@ theme: hugo-profile
 # TODO: Add blog posts and populate projects
 #   TODO: Add racing projects
 #   TODO: Add cyber projects
-#   TODO: Add case studies
 #   TODO: Add mergematrix
 #   TODO: Add Linux projects
 #   TODO: Add CSE 361 labs 4 and 5
@@ -38,7 +37,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /blogs
+      url: /blog
       weight: 1
     - identifier: poetry
       name: Poetry
@@ -242,7 +241,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -265,52 +264,23 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Highlights"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Missouri Boys State - Changing Lives One Student at a Time
+      # TODO: content
+        # content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: "https://www.moboysstate.org/assets/logo.svg"
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          name: Read More
+          link: /blog/mbs/
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: XWiki Server - Executing During Crunch Time
+        # TODO: content
+        # content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: "https://xwiki.com/download/XWikiComCode/COMColorTheme2/Logo_XWiki.svg"
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          name: Read More
+          link: /blog/xwiki-server/
 
   #Contact
   contact:
