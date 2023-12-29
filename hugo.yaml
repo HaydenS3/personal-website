@@ -282,6 +282,16 @@ params:
           name: Read More
           link: /blog/xwiki-server/
 
+      - title: Dash/DAQ Final Design Report
+        content: |
+            The dash/DAQ will be responsible for collecting data from the ECU and other sensors around the car, logging that data, and displaying real-time information to the driver.
+            
+            We have chosen to buy an off-the-shelf dash/DAQ this year. (Custom dash/DAQ will be pursued in the future.) The dash/DAQ we chose is the AiM MXS 1.3. This make and model was chosen for its dual CAN buses, large amount of memory, and extensive documentation.
+        image: "/images/racing.png"
+        featured:
+          name: Read More
+          link: /blog/dash-daq-fdr-23/
+
   #Contact
   contact:
     enable: true
