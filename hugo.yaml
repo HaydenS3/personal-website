@@ -3,7 +3,6 @@ languageCode: "en-us"
 title: "Hayden Schroeder"
 theme: hugo-profile
 
-# TODO: Fix search
 # TODO: Add blog posts and populate projects
 #   TODO: Add racing projects
 #   TODO: Add cyber projects
@@ -63,8 +62,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -95,17 +94,17 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Hayden Schroeder" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
       showOnScrollUp : true
     menus:
-      disableAbout: false
+      disableAbout: true
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -297,7 +296,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: hschroeder0317@gmail.com
     btnName: Mail me
 
   # footer:
