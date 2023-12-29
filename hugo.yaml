@@ -12,18 +12,8 @@ theme: hugo-profile
 #   TODO: Add CSE 332 final project (maybe)
 # TODO: Figure out how to organize project, case study, and other sections
 
-# outputs:
-#   home:
-#     - "HTML"
-#     - "RSS"
-#     - "JSON"
-#   page:
-#     - "HTML"
-#     - "RSS"
-
-Paginate: 3
+Paginate: 6
 enableRobotsTXT: true
-# disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
 markup:
@@ -47,7 +37,6 @@ Menus:
 params:
   title: "Hayden Schroeder"
   description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.ico"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
@@ -63,7 +52,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    defaultTheme: "light" # dark
+    defaultTheme: "light"
 
   font:
     fontSize: 1rem # default: 1rem
@@ -79,14 +68,6 @@ params:
   #   secondaryBackgroundColor:
   #   primaryColor:
   #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -238,28 +219,6 @@ params:
           - SAT: _1520_
           - ACT: _33_
 
-  # Achievements
-  achievements:
-    enable: false
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
   # projects
   projects:
     enable: true
@@ -298,14 +257,6 @@ params:
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: hschroeder0317@gmail.com
     btnName: Mail me
-
-  # footer:
-  #   recentPosts:
-  #     path: "poetry"
-  #     count: 3
-  #     title: Recent Poetry
-  #     enable: true
-  #     disableFeaturedImage: false
 
   # List pages like blogs and posts
   listPages:
