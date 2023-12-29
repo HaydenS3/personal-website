@@ -3,6 +3,17 @@ languageCode: "en-us"
 title: "Hayden Schroeder"
 theme: hugo-profile
 
+# TODO: Fix search
+# TODO: Add blog posts and populate projects
+#   TODO: Add racing projects
+#   TODO: Add cyber projects
+#   TODO: Add case studies
+#   TODO: Add mergematrix
+#   TODO: Add Linux projects
+#   TODO: Add CSE 361 labs 4 and 5
+#   TODO: Add CSE 332 final project (maybe)
+# TODO: Figure out how to organize project, case study, and other sections
+
 # outputs:
 #   home:
 #     - "HTML"
@@ -309,13 +320,13 @@ params:
     email: gurusabarisha@gmail.com
     btnName: Mail me
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+  # footer:
+  #   recentPosts:
+  #     path: "poetry"
+  #     count: 3
+  #     title: Recent Poetry
+  #     enable: true
+  #     disableFeaturedImage: false
 
   # List pages like blogs and posts
   listPages:
