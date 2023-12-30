@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+baseURL: "http://hugo.haydenschroeder.com/"
 languageCode: "en-us"
 title: "Hayden Schroeder"
 theme: hugo-profile
