@@ -36,7 +36,7 @@ Menus:
 
 params:
   title: "Hayden Schroeder"
-  description: Text about my cool site
+  description: A page for my personal profile and content I wish to share.
   favicon: "/favicon.ico"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
@@ -178,6 +178,7 @@ params:
 
       - job: "Software and Control Systems Lead "
         company: "FIRST Robotics Team 4329"
+        companyUrl: "/#experience"
         date: "Aug 2017 - Aug 2021"
         content: |
           - Led project management and trained new software and control systems team members
