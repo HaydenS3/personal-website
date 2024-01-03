@@ -154,7 +154,7 @@ params:
 
 
       - job: "Information Security Intern"
-        company: "Washington University in St Louis"
+        company: "WashU Infosec"
         companyUrl: "https://informationsecurity.wustl.edu/about-us/"
         date: "May 2022 - present"
         info:
@@ -212,7 +212,7 @@ params:
           content: "As of Fall 2023"
       - title: "High School"
         school:
-          name: "Lutheran Highs School of St. Charles County"
+          name: "Lutheran High School of St. Charles County"
           url: "https://lutheranhighstcharles.com/"
         GPA: "4.07"
         content: |
