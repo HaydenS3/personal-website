@@ -13,7 +13,7 @@ Digital inputs are stored in global variables of the type unsigned long. Bit mas
 
 This approach was chosen for its space efficiency and ability to debounce digital inputs.
 
-Analog inputs use a rolling average filter.
+Analog inputs use a rolling average filter and are sampled at a 12 bit resolution.
 
 The sample rate of the system is unknown.
 
