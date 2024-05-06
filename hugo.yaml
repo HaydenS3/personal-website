@@ -94,7 +94,7 @@ params:
     intro: "Hi, my name is"
     title: "Hayden."
     subtitle: "I turn curiosity into code."
-    content: "Passionate about solving problems with creative solutions, leading others, and writing code. I'm interested in finding computer science opportunities especially in motorsports, embedded software, or cyber security."
+    content: "Passion for solving problems with creative solutions, leading others, and writing code. Interested in finding computer science opportunities embedded software and cyber security."
     image: /me-rooster.jpg
     bottomImage:
       enable: true
@@ -164,6 +164,7 @@ params:
           - Incident hunting and response using Corelight (Zeek) and Splunk. Discovered multiple malicious actors such as server backdoors and browser hijackers
           - Pioneered implementation of Suricata IDS into WashU security infrastructure. Tested and tuned IDS for use at WashU. Documented results and presented to CISO for approval
           - Enhanced and refactored python project that automates the manual task of viewing Tenable reports and sending them to the appropriate administrator
+          - Configured and tested honeypots used to catch bad actors and automatic scanners on more than a dozen services
 
 
       - job: "Back End Developer"
@@ -200,7 +201,7 @@ params:
           Notable Courses
           - [Introduction to Systems Software](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=361S)
           - [Reverse Engineering and Malware Analysis](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=434S)
-          - [Object-Oriented Software Development Laboratory](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=332S)
+          - [Recent Advances in Computer Security and Privacy](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=569S)
           - [Introduction to Concurrent and Parallel Programming](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=231S)
           - [Applications of Deep Neural Networks](https://courses.wustl.edu/CourseInfo.aspx?sch=T&dept=T81&crs=558)
         featuredLink:
