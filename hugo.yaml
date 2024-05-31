@@ -17,7 +17,7 @@ theme: hugo-profile
 
 Paginate: 6
 enableRobotsTXT: true
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-W47Q95QVLS
 
 markup:
   goldmark:
