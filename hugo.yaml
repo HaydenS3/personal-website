@@ -14,6 +14,7 @@ theme: hugo-profile
 #   TODO: My honeypot ate my server
 # TODO: Figure out how to organize project, case study, and other sections
 # TODO: SEO optimization
+# TODO: [Google analytics](https://gohugo.io/templates/embedded/#google-analytics)
 
 Paginate: 6
 enableRobotsTXT: true
