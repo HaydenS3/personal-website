@@ -17,7 +17,7 @@ theme: hugo-profile
 # TODO: [Google analytics](https://gohugo.io/templates/embedded/#google-analytics)
 
 Paginate: 6
-enableRobotsTXT: true
+enableRobotsTXT: false
 googleAnalytics: G-W47Q95QVLS
 
 markup:
