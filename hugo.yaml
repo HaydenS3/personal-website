@@ -138,21 +138,10 @@ params:
           - Design and prototype a low-pass filter testing device therefore improving testing efficiency by 6x through schematic capture, PCB layout, and component selection. 
           - Wrote Python API and GUI for network analyzers, signal generators, and low noise current supplies.
 
-      - job: "Project Manager"
+      - job: "Project Manager / Electronics and Data Acquisition Lead"
         company: "WashU Formula SAE"
         companyUrl: "https://www.linkedin.com/company/washu-racing/"
-        date: "Jul 2024 - present"
-        info:
-          enable: false
-        content: |
-          - Lead a team that designs and manufactures a race car which competes at Michigan Speedway.
-          - Create and manage a year long timeline ensuring over 30 projects across 6 subsystems are designed, manufactured, and validated. Act as primary point of contact for systems integration.
-          - Developed an executive vision containing our team’s mission statement, goals, and policies.
-
-      - job: "Electronics and Data Acquisition Lead"
-        company: "WashU Formula SAE"
-        companyUrl: "https://www.linkedin.com/company/washu-racing/"
-        date: "Jul 2022 - Jul 2024"
+        date: "Jul 2021 - present"
         info:
           enable: false
         # featuredLink:
@@ -161,6 +150,9 @@ params:
         #   url: "https://example.com"
         # TODO: Put featured links for projects, explain less here.
         content: |
+          - Lead a team that designs and manufactures a race car which competes at Michigan Speedway.
+          - Create and manage a year long timeline ensuring over 30 projects across 6 subsystems are designed, manufactured, and validated. Act as primary point of contact for systems integration.
+          - Developed an executive vision containing our team’s mission statement, goals, and policies.
           - Facilitated design and implementation of all electronics and software on the season’s race car. Ended the 2023 season at 12th/120 at the Michigan FSAE competition.
           - Designed and manufactured the vehicle wire harnesses resulting in full vehicle functionality including ECU, power, data collection, driver controls, and CAN network.
           - Wrote C code for custom sensor boards resulting in data capture from  50+ digital, analog, SPI, and I2C sensors.
