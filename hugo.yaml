@@ -49,7 +49,7 @@ params:
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-  
+
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
 
@@ -84,8 +84,8 @@ params:
     disableSearch: true
     searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     menus:
       disableAbout: true
       disableExperience: false
@@ -128,10 +128,31 @@ params:
   experience:
     enable: true
     items:
+      - job: "Intern"
+        company: "Gateway Quantum Electronics"
+        companyUrl: "https://www.gqe.us/"
+        date: "May 2024 - present"
+        info:
+          enable: false
+        content: |
+          - Design and prototype a low-pass filter testing device therefore improving testing efficiency by 6x through schematic capture, PCB layout, and component selection. 
+          - Wrote Python API and GUI for network analyzers, signal generators, and low noise current supplies.
+
+      - job: "Project Manager"
+        company: "WashU Formula SAE"
+        companyUrl: "https://www.linkedin.com/company/washu-racing/"
+        date: "Jul 2024 - present"
+        info:
+          enable: false
+        content: |
+          - Lead a team that designs and manufactures a race car which competes at Michigan Speedway.
+          - Create and manage a year long timeline ensuring over 30 projects across 6 subsystems are designed, manufactured, and validated. Act as primary point of contact for systems integration.
+          - Developed an executive vision containing our team’s mission statement, goals, and policies.
+
       - job: "Electronics and Data Acquisition Lead"
         company: "WashU Formula SAE"
         companyUrl: "https://www.linkedin.com/company/washu-racing/"
-        date: "Jul 2022 - present"
+        date: "Jul 2022 - Jul 2024"
         info:
           enable: false
         # featuredLink:
@@ -140,14 +161,24 @@ params:
         #   url: "https://example.com"
         # TODO: Put featured links for projects, explain less here.
         content: |
-          - As team lead, establish a project plan, including creating season timeline and milestones, delegating projects to members, and project documentation. Ended the 2023 season at 11th/120 at the Michigan FSAE competition
-          - Facilitate design and implementation of all electronics and software on the season’s race car
-          - Design and manufacture multiple wire harnesses each year for ECU, data, and power
-          - Wrote C code for custom sensor boards, which packages sensor data into CAN frames and sends them to a central data acquisition board for processing and storage. Results in data capture from over 50 sensors on the car
-          - Wrote C code for custom control board, allowing precise driver control of DRS, e-clutch, and paddle shifting
-          - Built a Python script for cleaning and visualizing resulting CSV data enabling other team members to easily analyze car data and validate their designs
-          - Self-host an Xwiki server. Enables over 40 members to collaborate on a centralized documentation server
+          - Facilitated design and implementation of all electronics and software on the season’s race car. Ended the 2023 season at 12th/120 at the Michigan FSAE competition.
+          - Designed and manufactured the vehicle wire harnesses resulting in full vehicle functionality including ECU, power, data collection, driver controls, and CAN network.
+          - Wrote C code for custom sensor boards resulting in data capture from  50+ digital, analog, SPI, and I2C sensors.
+          - Wrote C code for custom control boards and power distribution module resulting in precise driver controls and smart relay control.
+          - Self-hosted an Xwiki server enabling 40+ members to collaborate on a centralized documentation server.
 
+      - job: "Information Security Intern"
+        company: "WashU Infosec"
+        companyUrl: "https://informationsecurity.wustl.edu/about-us/"
+        date: "May 2022 - May 2024"
+        info:
+          content: "Spring/Fall internship"
+        content: |
+          - Identified network  vulnerabilities such as misconfigured file uploads and DNS zone transfer.
+          - Discovered multiple malicious actors such as server backdoors and browser hijackers using Corelight and Splunk.
+          - Pioneered implementation of Suricata IDS into WashU security framework. Tested and optimized  IDS, and documented results for CISO approval.
+          - Enhanced and refactored python project that automates viewing and distributing Tenable reports. Reduced codebase size by nearly half.
+          - Configured and tested honeypots to catch bad actors and automatic scanners on over a dozen services.
 
       - job: "Intern"
         company: "BH Tech"
@@ -158,21 +189,6 @@ params:
         content: |
           - Developed custom interfaces and backend solutions to modernize company processes in SQL Server and Next.js
 
-
-      - job: "Information Security Intern"
-        company: "WashU Infosec"
-        companyUrl: "https://informationsecurity.wustl.edu/about-us/"
-        date: "May 2022 - present"
-        info:
-          content: "Spring/Fall internship"
-        content: |
-          - Research and report vulnerabilities in the network such as misconfigured file uploads and DNS zone transfer
-          - Incident hunting and response using Corelight (Zeek) and Splunk. Discovered multiple malicious actors such as server backdoors and browser hijackers
-          - Pioneered implementation of Suricata IDS into WashU security infrastructure. Tested and tuned IDS for use at WashU. Documented results and presented to CISO for approval
-          - Enhanced and refactored python project that automates the manual task of viewing Tenable reports and sending them to the appropriate administrator
-          - Configured and tested honeypots used to catch bad actors and automatic scanners on more than a dozen services
-
-
       - job: "Back End Developer"
         company: "Technology Partners"
         companyUrl: "https://technologypartners.net/"
@@ -182,7 +198,6 @@ params:
         content: |
           - Entry level developer working on the [TeamBot](https://goteambot.com/) website backend (Java Spring Boot)
 
-
       - job: "Software and Control Systems Lead "
         company: "FIRST Robotics Team 4329"
         companyUrl: "/#experience"
@@ -191,7 +206,6 @@ params:
           - Led project management and trained new software and control systems team members
           - Integrated new technologies including low-light IR computer vision and PID control to the team
           - Created first team 'coding etiquette', GitHub flow control, and Java curriculum
-
 
   # Education
   education:
@@ -209,13 +223,13 @@ params:
           - [Reverse Engineering and Malware Analysis](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=434S)
           - [Recent Advances in Computer Security and Privacy](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=569S)
           - [Introduction to Concurrent and Parallel Programming](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=231S)
-          - [Applications of Deep Neural Networks](https://courses.wustl.edu/CourseInfo.aspx?sch=T&dept=T81&crs=558)
+          - [Analysis of Algorithms](https://courses.wustl.edu/CourseInfo.aspx?sch=E&dept=E81&crs=347)
         featuredLink:
           enable: true
           name: "Transcript"
-          url: "/transcript-fall23.pdf"
+          url: "/transcript-fall24.pdf"
         # TODO: Make info work or find another solution
-        info: 
+        info:
           content: "As of Fall 2023"
       - title: "High School"
         school:
@@ -233,7 +247,7 @@ params:
     title: "Highlights"
     items:
       - title: Missouri Boys State - Changing Lives One Student at a Time
-      # TODO: content
+        # TODO: content
         # content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: "https://www.moboysstate.org/assets/logo.svg"
         featured:
@@ -250,9 +264,9 @@ params:
 
       - title: Dash/DAQ Final Design Report
         content: |
-            The dash/DAQ will be responsible for collecting data from the ECU and other sensors around the car, logging that data, and displaying real-time information to the driver.
-            
-            We have chosen to buy an off-the-shelf dash/DAQ this year. (Custom dash/DAQ will be pursued in the future.) The dash/DAQ we chose is the AiM MXS 1.3. This make and model was chosen for its dual CAN buses, large amount of memory, and extensive documentation.
+          The dash/DAQ will be responsible for collecting data from the ECU and other sensors around the car, logging that data, and displaying real-time information to the driver.
+
+          We have chosen to buy an off-the-shelf dash/DAQ this year. (Custom dash/DAQ will be pursued in the future.) The dash/DAQ we chose is the AiM MXS 1.3. This make and model was chosen for its dual CAN buses, large amount of memory, and extensive documentation.
         image: "/images/racing.png"
         featured:
           name: Read More
