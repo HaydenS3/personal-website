@@ -150,7 +150,7 @@ params:
         #   url: "https://example.com"
         # TODO: Put featured links for projects, explain less here.
         content: |
-          - Lead a team that designs and manufactures a race car which competes at Michigan Speedway.
+          - Lead a team of 80+ members  that design and manufacture a race car which competes at Michigan Speedway.
           - Create and manage a year long timeline ensuring over 30 projects across 6 subsystems are designed, manufactured, and validated. Act as primary point of contact for systems integration.
           - Developed an executive vision containing our team’s mission statement, goals, and policies.
           - Facilitated design and implementation of all electronics and software on the season’s race car. Ended the 2023 season at 12th/120 at the Michigan FSAE competition.
