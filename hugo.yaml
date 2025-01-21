@@ -101,7 +101,7 @@ params:
     title: "Hayden."
     subtitle: "I turn curiosity into code."
     content: "Passion for solving problems with creative solutions, leading others, and writing code. Interested in finding computer science opportunities embedded software and cyber security."
-    image: /me-rooster.jpg
+    image: /me-2024.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
